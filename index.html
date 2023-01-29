@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Terminal Antigo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset-css.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="crt"></div>
+    <header>
+        <pre class="titulo">
+██████╗ ███████╗ ██████╗ ██████╗ ██████╗     ███████╗███╗   ██╗ ██████╗ ██████╗ ██████╗ 
+██╔══██╗██╔════╝██╔════╝██╔═══██╗██╔══██╗    ██╔════╝████╗  ██║██╔════╝██╔═══██╗██╔══██╗
+██║  ██║█████╗  ██║     ██║   ██║██║  ██║    █████╗  ██╔██╗ ██║██║     ██║   ██║██║  ██║
+██║  ██║██╔══╝  ██║     ██║   ██║██║  ██║    ██╔══╝  ██║╚██╗██║██║     ██║   ██║██║  ██║
+██████╔╝███████╗╚██████╗╚██████╔╝██████╔╝    ███████╗██║ ╚████║╚██████╗╚██████╔╝██████╔╝
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝ ╚═════╝     ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚═════╝ 
+            </pre>
+    </header>
+    <main>
+        <section>
+            <div class="areas">
+                <div contenteditable="true" class="terminal" id="terminalid" placeholder="Text here" ></div>
+
+                <div class="resposta" id="respostaid">
+    <pre class="ascii-vazia" id="ascii-vaziaid">
+    ███╗   ███╗███████╗███████╗███████╗ █████╗  ██████╗ ███████╗            
+    ████╗ ████║██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝ ██╔════╝            
+    ██╔████╔██║█████╗  ███████╗███████╗███████║██║  ███╗█████╗              
+    ██║╚██╔╝██║██╔══╝  ╚════██║╚════██║██╔══██║██║   ██║██╔══╝              
+    ██║ ╚═╝ ██║███████╗███████║███████║██║  ██║╚██████╔╝███████╗            
+    ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝ 
+                
+███╗   ██╗ ██████╗ ████████╗    ███████╗ ██████╗ ██╗   ██╗███╗   ██╗██████╗ 
+████╗  ██║██╔═══██╗╚══██╔══╝    ██╔════╝██╔═══██╗██║   ██║████╗  ██║██╔══██╗
+██╔██╗ ██║██║   ██║   ██║       █████╗  ██║   ██║██║   ██║██╔██╗ ██║██║  ██║
+██║╚██╗██║██║   ██║   ██║       ██╔══╝  ██║   ██║██║   ██║██║╚██╗██║██║  ██║
+██║ ╚████║╚██████╔╝   ██║       ██║     ╚██████╔╝╚██████╔╝██║ ╚████║██████╔╝
+╚═╝  ╚═══╝ ╚═════╝    ╚═╝       ╚═╝      ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═════╝ 
+    </pre>
+                </div>
+            </section>
+            </div>
+            <div class="aviso">
+                <h6 class="info">⚠ Only lowercase letters</h6>
+            </div>
+            <div class="botoes">
+                <button class="btn-encod" id="btn-encodid" onclick="criptografar()">ENCODE</button>
+                <button class="btn-decod" id="btn-decodid" onclick="descriptografar()">DECODE</button>
+                <button class="copiar" onclick="copia()">COPY</button>
+            </div>
+        </section>
+    </main>
+    </div>
+</body>
+
+</html>
+
+<script src="script.js"></script>
