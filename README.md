@@ -1,6 +1,6 @@
 # Proposta do Desafio Decodificador da Alura
 
-Este projeto envolve a criação de uma aplicação de criptografia de textos. O objetivo é permitir que as pessoas troquem mensagens secretas usando uma "chave" específica. As chaves são a substituição de letras como "e" por "enter" e "a" por "ai". O projeto requer a criação de campos na página para inserção do texto a ser criptografado ou descriptografado, e o resultado deve ser exibido na tela. Além disso, é desejável que seja possível copiar o resultado para a área de transferência. O desenvolvimento será feito utilizando o sistema ágil de desenvolvimento e será acompanhado com o uso do Trello.
+Este projeto envolve a criação de uma aplicação de criptografia de textos. O objetivo é permitir que as pessoas troquem mensagens secretas usando uma "chave" específica. As chaves são a substituição de letras como "e" por "enter" e "a" por "ai". O projeto requer a criação de campos na página para inserção do texto a ser criptografado ou descriptografado, e o resultado deve ser exibido na tela. Além disso, é desejável que seja possível copiar o resultado para a área de transferência. O desenvolvimento será feito utilizando o sistema ágil de desenvolvimento.
 
 
 # Resumo da Resolução do Projeto
