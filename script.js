@@ -52,15 +52,3 @@ function copia() { //faz a cópia ao clicar no botão "copy"
     alert("Texto copiado com sucesso!");    
 
 }
-
-function pegarteste(){
-    const editableDiv = document.querySelector("#terminalid");
-    const text = editableDiv.innerHTML;
-    console.log(text)
-}
-
-function pegarteste2(){
-    const editableDiv = document.querySelector("div[contentEditable=true]");
-    const text = editableDiv.textContent;
-    return text
-}
